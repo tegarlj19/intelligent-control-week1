@@ -1,0 +1,10 @@
+Analisis dan Diskusi
+
+Analisis :
+Pada hasil percoban ini program menghasilkan tamoilan brupa 3 frame yaitu frame utama, mask, dan result. Frame utama merupakan kamera untuk tampilan asli, untuk frame mask akan menampilkan bagian – bagian yang terdapat warna merah dimana pada frame ini menghasilkan tampilan berwarna hitam dan putih untuk bagian berwarna merah, pada frame result hanya warna merah saja yang di tampilkan selebihnya atau sisanya berwarna hitam.
+Program ini dapat berjalan mendeteksi warna merah karena menggunakan HSV (Hue, Saturation, Value). Dimana kamera akan mengubah ke format HSV sehingga program akan mendetekso warna merah dengan berdassarkan rentang Hue, Saturation, dan Value yang akan membuat masker biner yang menandai warna merah lalu digabungkan dengan kamera asli  sehingga warna merah saja yang akan muncul. Pedeteksi warna dengan HSV dapat diterapkan untuk beberapa hal salah satu contohnya adalah pada robot pemandu atau pengikut warna yang bisa digunakan dalam kompetisi robot line follower.
+
+Diskusi :
+1.	AI dalam Computer Vision berperan untuk meningkatkan akurasi, kecepatan, dan adaptasi sistem kontrol dengan memanfaatkan algoritma seperti *CNN, YOLO, dan SSD*. Dengan ini, deteksi objek dapat dilakukan secara real-time dan memungkinkan pengambilan keputusan otomatis yang lebih akurat dibandingkan metode konvensional.  
+2.	Untuk meningkatkan akurasi dapat dilakukan dengan menggabungkan deteksi berbasis warna dengan analisis bentuk, tekstur, atau deep learning.
+
